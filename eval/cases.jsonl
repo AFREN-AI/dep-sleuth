@@ -1,0 +1,6 @@
+{"ecosystem":"npm","name":"made-up-cloud-utility-8472","expected":"critical","kind":"nonexistent"}
+{"ecosystem":"pypi","name":"not-a-real-ml-helper-2901","expected":"critical","kind":"nonexistent"}
+{"ecosystem":"npm","name":"lodahs","expected":"high","kind":"popular-name-typo","nearest":"lodash"}
+{"ecosystem":"pypi","name":"reqeusts","expected":"high","kind":"popular-name-typo","nearest":"requests"}
+{"ecosystem":"npm","name":"react","expected":"low","kind":"established"}
+{"ecosystem":"pypi","name":"numpy","expected":"low","kind":"established"}
