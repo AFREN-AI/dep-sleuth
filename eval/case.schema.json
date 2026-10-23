@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PkgSentry generated dependency evaluation case",
+  "type": "object",
+  "required": ["id", "prompt", "model_output", "ecosystem", "package", "expectation", "basis", "model_id", "model_version", "sample_source", "collected_at"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "prompt": { "type": "string" },
+    "model_output": { "type": "string" },
+    "ecosystem": { "enum": ["npm", "pypi"] },
+    "package": { "type": "string", "minLength": 1 },
+    "expectation": { "enum": ["must_be_critical", "must_not_be_critical", "warn_or_critical"] },
+    "basis": { "type": "string", "minLength": 1 },
+    "model_id": { "type": "string", "minLength": 1 },
+    "model_version": { "type": "string", "minLength": 1 },
+    "sample_source": { "type": "string", "minLength": 1 },
+    "collected_at": { "type": "string", "format": "date" }
+  },
+  "additionalProperties": false
+}
